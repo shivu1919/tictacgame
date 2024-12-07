@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    width:40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#cell0 ,#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8{
+    height:100px;
+    width:100px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    
+}
+
+
+p{
+    font-size: 28px;
+}
